@@ -29,10 +29,17 @@ public class LineComparision {
 		int q2= sc.nextInt();
 		double Line2= Math.sqrt((p2-p1)*(p2-p1)+(q2-q1)*(q2-q1));
 		System.out.println("length of Line2: "+Line2);
-		//boolean ans = Line1.equals(Line2);
-		if(Line1==Line2)
-			System.out.println("Both lines are equal.");
-		else
-			System.out.println("Both lines are not equal.");
+		/*
+		 * boolean ans = Line1.equals(Line2); if(Line1==Line2)
+		 * System.out.println("Both lines are equal."); else
+		 * System.out.println("Both lines are not equal.");
+		 */
+		/*
+		 * int res = Line1.compareTo(Line2); if(res > 0) System.out.
+		 * println("Length of first end points is greater than length of second end points"
+		 * ); else if(res < 0) System.out.
+		 * println("Length of first end points is less than length of second end points"
+		 * ); else System.out.println("Both lines are equal.");
+		 */
 }
 }
